@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="Español">
+<head >
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+<body>
+   
+    
+    <section id="pantalla">
+        <div class="principal">
+            <img src="foto.jpg" id="mi_foto" aling="center">
+            <fieldset>
+                <legend> Datos personales</legend>
+                <div class="contenedor">
+                    <a class="DNI">
+                        <i class="fa-solid fa-user"></i>
+                    </a>37.543.873
+                    <br>
+                    <a class="telefono">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>+542634534211
+                    <br>
+                    <a  class="e-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>caty_10@example.com
+                    <br>
+                    <a class="direccion">
+                        <i class="fa-solid fa-house"></i>
+                    </a>Avenida Mitre 525,Mendoza_Argentina
+                    <br>
+                    <a class="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>Cati Aldreani
+                    <br>
+                </div>
+                       
+            </fieldset>
+            <fieldset>
+                <legend>Formación Académica</legend>
+                <ul>
+                    <li>Máster Desarrollo de Apps Wed Front End 06/2011
+                        Campus MVP- Online
+                    </li>
+                    <br>
+                    <li>Grado en Ingenieria de Telecomunicaciones 05/2010
+                        Universidad de Cuyo- Mendoza
+                    </li>
+
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Idioma</legend>
+                <ul>
+                    <li>Español:Idioma nativo </li>
+                    <li>Inglés: Avanzado</li>
+                    <li>Portugues: Medio</li>
+                </ul>
+            </fieldset>
+           
+        </div>
+
+        <div class="derecha">
+            <p id="ok">Curriculum vitae</p>
+            <button type="button" id="boton">Más Info</button>
+            <h1> Caterine Aldreani</h1>
+            <p>Desarrollador front end con 10 años de experiencia dirigiendo proyectos de diseño de páginas wed.Centrado en la creación de códigos claros y con capacidad para cumplir los objetivos y las necesidades del cliente.</p>
+            <fieldset>
+                <legend>Formación Adicional</legend>
+                <ul>
+                    <li>Conocimientos de framework. </li>
+                    <li>Dominio de lenguaje de programación.</li>
+                    <li> Uso de React en el servidor y jQuery.</li>
+
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Experiencia Laboral</legend>
+                <ul>
+                    <h4>Desarrollados Front End 
+                        02/2013 hasta Actual<br>
+                        Agencia Creativa- Mendoza
+                    </h4>
+                    <li> Desarrollo, mantenimiento y mejora de las funcionalidades del producto.</li>
+                    <li>Análisis y desarrollo de aplicaciones adaptadas.</li>
+                    <li> Uso de React en el servidor y jQuery.</li>
+
+                </ul>
+                <ul>
+                    <h4>Desarrollados Front End             
+                       07/2020 hasta Actual<br>
+                        Bitaclick- Mendoza
+                    </h4>
+                    <li>Elaboración de código de calidad testeable.</li>
+                    <li> Mantenimiento y mejora de sitios wed y aplicaciones..</li>
+                    <li>Creación de aplicaciones a medida con PHP,JavaScript,HTML yCSS.</li>
+                </ul>
+            </fieldset>
+        </div>
+    </section>
+    <!-- Java Script-->
+    <script>
+     document.getElementById("boton").addEventListener("click",function(){
+      const element = document.getElementById("ok");
+      element.innerHTML = "Caterine Aldreani, 29 años, Argentina.";
+     });
+    </script>
+
+    
+</body>
+</html>
